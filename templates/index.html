@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+        <title>봇 정보</title>
+    </head>
+      
+    <body>
+	  <div class="container">
+          <h1>길드 수 : {{guild}}</h1>
+          <h1>유저 수 : {{user}}</h1>
+          <h1>채널 수 : {{channel}}</h1>
+          <!<p>역으시 플라스크!</p>
+          <h1><p>길드</p></h1>     		
+          <ul>
+            {% for n in guildlist %}
+            <h3><li>{{n}}</li></h3>
+            {% endfor %}
+          </ul>
+	  </div>  
+    </body>
+
+</html>
